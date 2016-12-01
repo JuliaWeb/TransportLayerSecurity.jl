@@ -1,5 +1,6 @@
 using TransportLayerSecurity
 using Base.Test
 
-# write your own tests here
-@test 1 == 2
+isdefined(TransportLayerSecurity, :setup!)
+isdefined(TransportLayerSecurity, :associate!)
+isdefined(TransportLayerSecurity, :handshake!)
